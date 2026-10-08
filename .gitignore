@@ -1,0 +1,29 @@
+# Secrets: NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+credentials
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Terraform / build output
+.terraform/
+*.tfstate
+*.tfstate.*
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
